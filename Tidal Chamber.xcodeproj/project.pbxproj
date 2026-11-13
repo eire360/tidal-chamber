@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		344D9E9E740FB0A7EC2EA240 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73306A5999288638C6AE1990 /* Geometry.swift */; };
+		59AA82804BAC651E62413A08 /* TidalChamberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A116B601F90C6E25881AC204 /* TidalChamberApp.swift */; };
+		5E79B89878F8C7C6DD351A27 /* Chamber.metal in Sources */ = {isa = PBXBuildFile; fileRef = 107751BCA529A56241083F53 /* Chamber.metal */; };
+		80FAC02A0BD5812E2A00F339 /* TidalChamberUITests/ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE4B28CDFF08F590396BA5 /* TidalChamberUITests/ClockUITests.swift */; };
+		C75943CD98758F413064D073 /* ClockState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E58B9490194D573B5BDCFE /* ClockState.swift */; };
+		CAFC1D5BE48BD70E323CD375 /* ChamberRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F8510D946306ED57F583A9 /* ChamberRenderer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D799BAE6088A90139B415FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E8A3AD980EC179856012B7E;
+			remoteInfo = "Tidal Chamber";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		107751BCA529A56241083F53 /* Chamber.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Chamber.metal; sourceTree = "<group>"; };
+		15E58B9490194D573B5BDCFE /* ClockState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockState.swift; sourceTree = "<group>"; };
+		73306A5999288638C6AE1990 /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		74F8510D946306ED57F583A9 /* ChamberRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChamberRenderer.swift; sourceTree = "<group>"; };
+		7D1043473D55BFA90E8530D3 /* Tidal Chamber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "Tidal Chamber.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A116B601F90C6E25881AC204 /* TidalChamberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidalChamberApp.swift; sourceTree = "<group>"; };
+		AEAE4B28CDFF08F590396BA5 /* TidalChamberUITests/ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidalChamberUITests/ClockUITests.swift; sourceTree = "<group>"; };
+		B7480EC88B7F22D0A4757273 /* TidalChamberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = TidalChamberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B28B7AF69320201D1CF206EB = {
+			isa = PBXGroup;
+			children = (
+				BCE16DD0260827ECF338C787 /* TidalChamber */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+				AEAE4B28CDFF08F590396BA5 /* TidalChamberUITests/ClockUITests.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		BCE16DD0260827ECF338C787 /* TidalChamber */ = {
+			isa = PBXGroup;
+			children = (
+				15E58B9490194D573B5BDCFE /* ClockState.swift */,
+				73306A5999288638C6AE1990 /* Geometry.swift */,
+				74F8510D946306ED57F583A9 /* ChamberRenderer.swift */,
+				A116B601F90C6E25881AC204 /* TidalChamberApp.swift */,
+				107751BCA529A56241083F53 /* Chamber.metal */,
+			);
+			path = TidalChamber;
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D1043473D55BFA90E8530D3 /* Tidal Chamber.app */,
+				B7480EC88B7F22D0A4757273 /* TidalChamberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A06C5E2DA34E686D888A695 /* TidalChamberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BECB265224D91761C05FDA33 /* Build configuration list for PBXNativeTarget "TidalChamberUITests" */;
+			buildPhases = (
+				30F416E6C342BEB0B66F9005 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE58E2B17C19600779694943 /* PBXTargetDependency */,
+			);
+			name = TidalChamberUITests;
+			productName = TidalChamberUITests;
+			productReference = B7480EC88B7F22D0A4757273 /* TidalChamberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0E8A3AD980EC179856012B7E /* Tidal Chamber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57128001CE614BF8549D6BB /* Build configuration list for PBXNativeTarget "Tidal Chamber" */;
+			buildPhases = (
+				FE77C82BB2A42EFEEC930360 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tidal Chamber";
+			productName = "Tidal Chamber";
+			productReference = 7D1043473D55BFA90E8530D3 /* Tidal Chamber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2710;
+			};
+			buildConfigurationList = 862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "Tidal Chamber" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B28B7AF69320201D1CF206EB;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* Tidal Chamber */,
+				0A06C5E2DA34E686D888A695 /* TidalChamberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30F416E6C342BEB0B66F9005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FAC02A0BD5812E2A00F339 /* TidalChamberUITests/ClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE77C82BB2A42EFEEC930360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75943CD98758F413064D073 /* ClockState.swift in Sources */,
+				344D9E9E740FB0A7EC2EA240 /* Geometry.swift in Sources */,
+				CAFC1D5BE48BD70E323CD375 /* ChamberRenderer.swift in Sources */,
+				59AA82804BAC651E62413A08 /* TidalChamberApp.swift in Sources */,
+				5E79B89878F8C7C6DD351A27 /* Chamber.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE58E2B17C19600779694943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E8A3AD980EC179856012B7E /* Tidal Chamber */;
+			targetProxy = D799BAE6088A90139B415FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		639A7CA24D39909E713B47F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIViewControllerBasedStatusBarAppearance = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.livingclock.tidalchamber.refinement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7082CC0B6FC1282FCEABD07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIViewControllerBasedStatusBarAppearance = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.livingclock.tidalchamber.refinement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		942EEBBACD6C88CAE7F29B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.livingclock.tidalchamber.refinement.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Tidal Chamber";
+			};
+			name = Release;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FCB48D8F88BCDB0ED9FADFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.livingclock.tidalchamber.refinement.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Tidal Chamber";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "Tidal Chamber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BECB265224D91761C05FDA33 /* Build configuration list for PBXNativeTarget "TidalChamberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB48D8F88BCDB0ED9FADFD7 /* Debug */,
+				942EEBBACD6C88CAE7F29B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C57128001CE614BF8549D6BB /* Build configuration list for PBXNativeTarget "Tidal Chamber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7082CC0B6FC1282FCEABD07A /* Debug */,
+				639A7CA24D39909E713B47F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
